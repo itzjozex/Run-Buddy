@@ -78,7 +78,20 @@ footer a {
 
 section {
   padding: 60px;
-  background-image: url("../images/hero-bg.jpg");
+}
+
+/* homepage hero */
+.hero {
+  margin: 20px;
+  background-color: white;
+  font-size: 20px;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
 }
 
 /* Hero Style Start */
@@ -99,6 +112,7 @@ section {
 
 .hero {
   background-image: url("../images/hero-bg.jpg");
+  height: 600px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -188,10 +202,8 @@ section {
   font-size: 23px;
 }
 
-.trainers {
-}
-
 .trainer {
+  overflow: auto;
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
